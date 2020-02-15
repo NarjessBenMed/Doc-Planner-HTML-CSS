@@ -1,0 +1,688 @@
+*{
+    margin:0
+    
+  }
+
+/******************* header CSS*****************/
+
+.logo-docplanner
+{
+  width:268px;
+  height:33px;
+
+}
+
+body{
+
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+
+    display:flex;
+    padding:20px  230px;
+    justify-content: space-between;
+    position:fixed;
+    background-color: white;
+    box-shadow: slategray;
+    width:75vw;
+    height:20px;
+    z-index: 1;
+    box-shadow: thistle;
+
+    
+    
+
+      
+
+}
+
+
+main{
+
+    padding-top: 100px;
+}
+
+
+header ul{
+
+    
+    display: flex;
+    justify-content: space-between;
+    width:250px;
+  
+    
+    
+} 
+
+
+header ul li
+{
+    list-style-type: none;
+}
+
+#link_About  /*couleur de lien "about us" */
+{
+    color:#00bfa5;
+    font-weight: 700;
+}
+
+.link_Career_dpt  /*couleur de lien "about us et departements*/
+{
+    color:#ababab;
+    font-weight: 700;
+}
+
+a    /* tous les liens sans soulignement  */
+
+{
+    text-decoration: none;   
+  
+}
+
+
+
+
+.link_Career_dpt:hover
+{
+    color:#00bfa5;
+}
+
+.dropdown
+{
+   position:relative;
+   
+    
+
+}
+
+.dropdown_Content
+{
+background-color: white;
+display:none;
+position: fixed;
+right:20px;
+top:40px;
+height:250px;
+padding:0px;
+margin-right: 150px;
+text-align: justify;
+line-height: 2;
+box-shadow: 0px 4px 8px 0px gray;
+box-sizing:box-border;
+
+}
+
+
+.li
+{
+    padding-top: 20px;
+    padding-left:40px;
+    
+}
+
+.Color_text_gray
+{
+color:#ababab;
+
+
+}
+
+
+.dropdown:hover .dropdown_Content
+{
+display:block;
+}
+
+
+.Color_text_gray:hover  {
+
+    color:#00bfa5;
+    
+    
+}
+
+.li:hover
+{
+background-color:#f6f8f8;
+
+}
+
+
+/* section_one est un flex  */ 
+.section_one
+{
+      padding:20px  250px;
+    
+}
+
+
+
+
+#logo_center
+{
+
+    height:40px;
+    width:39px;
+
+    
+}
+
+#logo_title
+{
+    
+    margin-top:40px;
+    height:200px;
+    
+    text-align: center;
+
+
+}
+
+h1
+{
+    
+    color: #00C4D8;
+    font-size: 40px;
+    font-weight: 300;
+    margin-top: 50px;
+   
+}
+
+
+.two_clouse
+{
+    display:flex;
+    justify-content:space-between;
+    margin-bottom: 40px;
+
+}
+
+.two_clouse p
+{
+    width: 477px;
+    height:120px;
+    line-height: 1.75;
+    font-size: 16px;
+    font-weight: 400;
+    color:#747474;
+}
+
+/*  les deux boxes avec animation   */
+.div_boxes
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.div_patient_doctors
+{
+    width:400px;
+    height:390px;
+    border-radius: 30px;
+    text-align: justify;
+    padding-left:40px;
+    padding-right: 40px;
+    padding-top:20px;
+    overflow: hidden;
+     /******** annimation ********/
+     position: relative;
+     animation-name: animation_Doctors_patient;
+   animation-duration: 3s;  
+   animation-fill-mode: forwards;
+}
+
+/*****  box for patients    **********/
+.For_patients
+{
+    background-color: #00CCB1;
+}
+
+
+
+
+
+
+
+
+/*****  box for doctors    **********/
+.For_doctors
+{
+    background-color: #3D83DF;
+   
+
+}
+
+
+@keyframes animation_Doctors_patient {
+    from {top: 200px;}
+    to {top: 0px; }
+
+
+}
+
+
+
+.div_boxes div  h2
+{
+ color:white;
+ 
+
+}
+
+.small_title
+{
+ color:#C5DAF4;
+ text-align: left;
+ margin-bottom: 10px;
+ 
+
+}
+
+/********  Select list country******************/
+
+
+#country-select
+
+{
+    height: 40px;
+    width:200px;
+    border-radius: 8px;
+   
+
+}
+
+.imag_patient
+{
+    width:100%;
+    height:248px;
+  
+
+
+}
+
+
+
+
+.imag_doctors
+{
+    width: 397px;
+    height:248px;
+    margin-left: 150px;
+    margin-top: 40px;
+   
+
+}
+
+
+/*******   le select et l'image doivent etre alignés*****/
+
+.select_and_img
+{
+    display:flex;
+     margin-top: 40px;
+
+    
+}
+
+
+.last_Div_Section_One
+{
+display:flex;
+justify-content: space-between;
+height:170px;
+padding-top: 40px;
+margin-top:50px;
+}
+
+.last_Div_Section_One h2
+{
+    width:170px;
+    color:#00B3B5;
+
+
+}
+
+.campany_logo_link 
+{
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+width:80%;
+height:100px;
+
+}
+
+
+
+.campany_logo_link  a svg{
+
+    width:200px;
+    height:20px;
+    padding-left:20px;
+    fill:#747474;
+    
+ 
+}
+
+.campany_logo_link a:hover  svg
+{
+fill:#40CFBC;
+
+}
+
+
+.second_section
+{
+
+    background-color:#DFF9F7;
+    height:700px;
+    margin:0px;
+    display:flex;
+    overflow: hidden;
+    padding:20px  230px;
+    
+}
+
+
+.second_section_left_part
+{
+    width:50%;
+    margin-top: 50px;
+    
+}
+
+
+.second_section_right_part
+{
+   width:50%;
+margin-top: 0px;
+display: flex;
+
+}
+
+/************************************************/
+
+
+ h2
+{
+    color:#00B39B;
+    font-weight:700px;
+    letter-spacing: 1px;
+}
+
+
+
+
+#big_logo
+{
+height:500px;
+width:450px;
+margin-top:100px;
+
+}
+
+.white_boxes
+{
+    display:flex;
+    background-color: white;
+    flex-direction: column;
+    width:225px;
+    height:255px;
+    margin:0px 20px 30px ;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    /* animation*/
+    position: relative;
+    animation-name: animation_box;
+  animation-duration: 3s;  
+  animation-fill-mode: forwards;
+    
+   
+}
+/******** annimation ********/
+@keyframes animation_box {
+    from {top: 200px;}
+    to {top: 0px; }
+
+}
+
+
+
+
+.same_part_height
+{
+    display:flex;
+    flex-direction: column;
+    flex:1;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+
+.Leader_unique_patients
+
+{
+    margin-top:20px;
+}
+
+.img_flag_patient /* images dans la 1ere et 2eme white boxes*/
+{
+    width:35px;
+    height:40px;
+  
+  
+}
+
+.white_boxes_clouse
+{
+color:#006B62;
+padding-left: 60px;
+padding-right: 55px;
+font-weight: 400;
+width:150px;
+height: 62px;
+text-align: center;
+font-size: 22px;
+
+
+}
+
+ h5
+{
+color:#747474;
+text-align: center;
+padding-left:10px;
+padding-right: 10px;
+margin-top:5px;
+font-weight: 400;
+line-height: 1.5;
+letter-spacing: 1px;
+}
+
+
+.img_calender_doctors /* images dans la 3eme et 4eme white boxes*/
+{
+    width:40px;
+    height:40px;
+}
+
+
+.third_section
+{
+    padding:20px  230px;
+    margin-top: 70px;
+
+}
+
+.third_section-center_clouse
+{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 100px;
+    text-align: center;
+  
+   
+  
+    
+}
+
+.div_center
+{
+    font-size: 12px;
+    font-weight: 300;
+    text-align: center;
+    width:500px;
+   
+ 
+}
+
+
+
+.div_left
+{
+    font-size: 30px;
+    font-weight: 300;
+    text-align: left;
+    width:400px;
+    line-height: 1.5;
+   
+}
+
+
+
+
+
+
+
+
+h4
+{
+margin-top:10px;
+color:#747474;
+font-weight: 400;
+line-height: 1.5;
+letter-spacing: 1px;
+}
+
+h2{
+ color:#00B39B;
+ letter-spacing: 1px;
+
+}
+
+/***** catalogues des offices*******/
+
+.office_by_country 
+{
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-between;
+height:650px;
+
+}
+
+.office_by_country a
+{
+  
+    display:flex;
+    width: 330px;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    background-color: white;
+    margin-bottom: 20px;;
+    
+   
+}
+
+
+
+
+
+.office_by_country a img{
+    margin-bottom: 0px;
+    height: 278px;
+    width: 330px;
+    border-radius: 5px 5px 0px 0px;
+    margin-bottom: 10px;
+}
+
+.office_seeMore
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+      padding-left: 20px;
+    padding-right: 20px;
+    height: 40px;
+    margin-bottom: 30px;
+    border-radius: 0px 0px 5px 5px;
+} 
+
+.see_more
+{
+    font-size: 11px;
+    color:white;
+    background-color:#254F86;
+    height: 10px;
+    border-radius: 10px;
+    padding: 15px 10px;
+
+}
+
+.office /* nom de l'office affiché sous les images*/
+{
+    font-size: 20px;
+    color:#747474;
+     height: 15px;
+    padding: 15px 10px;
+
+}
+
+.hover_shadow:hover{
+
+    box-shadow: 0 0 11px blue;
+}
+
+footer
+{   margin-top:170px;
+    padding:20px  230px;
+    border-top:1px solid  #ccc;
+}  
+   
+
+
+footer p
+{ 
+
+     text-align: center;
+     color:#747474;
+     font-weight: 400;
+     line-height:1;
+     font-size: 12px;
+     
+
+}
+#espace
+{
+    line-height:4;
+}
+
+.ligne_below 
+{
+    color:#3d83df;
+    text-decoration: none;
+}
+
+.ligne_below:hover{
+    text-decoration: underline;
+}
+
